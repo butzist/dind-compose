@@ -19,5 +19,3 @@ RUN apk add --no-cache \
         gcc \
         libc-dev \
         make
-ENTRYPOINT ["env", "-u", "DOCKER_HOST"]
-CMD ["dockerd-entrypoint.sh"]
